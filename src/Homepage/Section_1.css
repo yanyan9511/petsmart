@@ -1,0 +1,10 @@
+.Section1 {
+    background-image: url('../Images/section_1_pic_1.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px -70px;
+    height: calc(100vw - 300px);
+}

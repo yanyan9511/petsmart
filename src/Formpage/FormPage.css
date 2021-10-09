@@ -1,0 +1,64 @@
+.formPage {
+    background-color: #6D8299;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navBarWrapperForm {
+    background-color: white;
+    color: black;
+    width: 100%;
+    flex: 0 0 auto;
+    position: fixed;
+    top:0
+}
+
+.navBarWrapperForm .navbar-brand {
+    color: black !important;
+}
+
+.navBarWrapperForm .link a {
+    color: black;
+}
+
+.navBarWrapperForm .link svg {
+    color: black;
+}
+
+.formWrapper {
+    width: 80%;
+    padding-top: 100px;
+}
+
+.applyColorWhite{
+    color: white;
+    font-size:1.1rem;
+}
+
+.spacingStyle {
+    margin-bottom: 35px !important;
+}
+
+.titleText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.plusSign {
+    position: absolute;
+    bottom: 50px;
+    left: 10%;
+    color: #6ECB63;
+}
+
+.arrowSign {
+    position: absolute;
+    bottom: 50px;
+    right: 10%;
+    color: #6ECB63;
+}

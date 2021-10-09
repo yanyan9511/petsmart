@@ -1,0 +1,86 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+}
+
+
+.loginPage .content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginPage .content img {
+    width: 50%;
+    height: 80%;
+    background-color: #EFEFEF;
+}
+
+.content form {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 1.2rem;
+}
+
+.content .input_ {
+    width: 400px;
+}
+
+.loginPage .navBarWrapper {
+    background-color: #292c2f;
+    width: 100%;
+    flex: 0 0 auto;
+    position: fixed;
+    top:0
+}
+
+
+.loginPage button {
+    width: 150px;
+    margin-top: 2%;
+}
+
+.loginPage .footerWrapper {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+.loginPage .signUpLink1 {
+    font-size: 0.8rem;
+    padding-top: 20px;
+    
+} 
+
+
+.loginPage .signUpLink1 a{
+    text-decoration: none;
+    color: black;
+} 
+
+.loginPage .signUpLink1 .signUpLink2{
+    text-decoration: underline;
+    color: blue;
+} 
+
+.loginPage .errorMessage {
+    font-size: 1.0rem;
+    color: red;
+}
+
+@media screen and (max-width: 850px) {
+    .loginPage .content img {
+        width: 50%;
+        height: 80%;
+        background-color: #EFEFEF;
+        display: none;
+    }
+}
